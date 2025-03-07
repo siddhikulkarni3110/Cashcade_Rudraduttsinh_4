@@ -1,0 +1,50 @@
+.cart {
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .cart img {
+    width: 130px;  /* ⬅️ Fixed image size */
+    height: 100px; /* ⬅️ Fixed image size */
+    object-fit: cover; /* ⬅️ Image ko stretch hone se bachayega */
+    border-radius: 5px; /* ⬅️ Thoda smooth look */
+    margin-right: 10px;
+  }
+  
+  .remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .summary-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

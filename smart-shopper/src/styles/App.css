@@ -1,0 +1,15 @@
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  body{
+    color: rgb(130, 65, 122);
+    background-color: rgb(233, 233, 233);
+  }

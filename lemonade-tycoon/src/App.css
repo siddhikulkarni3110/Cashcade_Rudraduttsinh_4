@@ -1,0 +1,119 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #FAFAFA;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.sidebar {
+  width: 20%; 
+  margin-top:50px;
+  background: #ebe8e8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left:10px;
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+  margin-bottom:20px;
+}
+.content-container {
+  display: flex;
+  width: 100%; }
+
+.store-wallet-container {
+  margin-top:50px;
+  width: 80%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #cacccd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom:20px;
+}
+.store-target-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.target-container{
+  align-self: flex-start;
+  background: #ebe8e8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top:2px;
+  margin-left:2px;
+  width: 200px;
+  text-align: center;
+  height:320px;
+
+}
+.store-container{
+  align-self: flex-start;
+  background: #ebe8e8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 2px;
+  margin-left:15px;
+  width: 200px;
+  text-align: center;
+  height:320px;
+
+}
+.wallet-container {
+  background: #ebe8e8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  width: 90%;
+  text-align: center;
+}
+
+.wallet {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+
+button {
+  width: 150px;  /* Set a fixed width */
+  height: 40px;  /* Set a fixed height */
+  font-size: 16px; /* Ensure consistent font size */
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.target-image {
+  width: 150px; /* Adjust size */
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
